@@ -22,7 +22,7 @@
 			
 		},
 		"publish": {
-			"url": "https://jb-ixn-v1-test.herokuapp.com/ixn/activities/hello-world/publish/",
+			"url": "https://testingjourneybuilderapp.herokuapp.com/publish",
 			"verb": "POST",
 			"body": "",
 			"useJwt": false
