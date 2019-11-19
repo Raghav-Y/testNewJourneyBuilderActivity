@@ -1,0 +1,87 @@
+{
+	"key": "51b052f0-6f7f-46bd-ab73-c6c725cdd81f",
+	"metaData": {
+		"icon": "images/icon.png",
+		"iconSmall": "images/icon_small.png"
+	},
+	"type": "RESTDECISION",
+	"lang": {
+		"en-US": {
+			"name": "Service Cloud Custom Split",
+			"description": "Custom Split activity that makes a decision based on data from Service Cloud"
+		}
+	},
+	"workflowApiVersion": "1.1",
+	"configurationArguments": {
+		"applicationExtensionKey": "51b052f0-6f7f-46bd-ab73-c6c725cdd81f",
+		"save": {
+			"url": "https://https://testingjourneybuilderapp.herokuapp.com/activity/save",
+			"verb": "POST",
+			"body": "",
+			"useJwt": false
+			
+		},
+		"publish": {
+			"url": "https://https://testingjourneybuilderapp.herokuapp.com/activity/publish",
+			"verb": "POST",
+			"body": "",
+			"useJwt": false
+			
+		},
+		"validate": {
+			"url": "https://https://testingjourneybuilderapp.herokuapp.com/activity/validate",
+			"verb": "POST",
+			"body": "",
+			"useJwt": false
+			
+		}
+	},
+	"wizardSteps": [
+		{"key": "eventdefinitionkey", "label": "Event Definition Key"},
+		{"key": "idselection", "label": "ID Selection"}
+	],
+	"outcomes": [
+		{
+			"arguments": {
+				"branchResult": "test1"
+			},
+			"metaData": {
+				"label": "LABEL1"
+			}
+		},
+		{
+			"arguments": {
+				"branchResult": "test2"
+			},
+			"metaData": {
+				"label": "LABEL2"
+			}
+		}
+	],
+	"userInterfaces": {
+		"runningModal": {
+			"url": "runningModal.html"
+		},
+		"runningHover": {
+			"url": "runningHover.html"
+		}
+	},
+	"arguments": {
+		"execute": {
+			"inArguments": [],
+			"outArguments": [],
+			"url": "https://https://testingjourneybuilderapp.herokuapp.com/activity/execute",
+			"verb": "POST",
+			"body": "",
+			"header": "",
+			"format": "json",
+			"useJwt": false,
+			"timeout": 90000
+		}
+	},
+	"edit": {
+		"url": "https://https://testingjourneybuilderapp.herokuapp.com/index.html",
+		"height": 200,
+		"width": 500
+	}
+}
