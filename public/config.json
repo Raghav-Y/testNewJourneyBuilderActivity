@@ -18,21 +18,24 @@
 			"url": "https://testingjourneybuilderapp.herokuapp.com/save",
 			"verb": "POST",
 			"body": "",
-			"useJwt": false
+			"useJwt": true,
+			"customerKey": "ad1524c8-668d-471d-85e7-b57799f27237"
 			
 		},
 		"publish": {
 			"url": "https://testingjourneybuilderapp.herokuapp.com/publish",
 			"verb": "POST",
 			"body": "",
-			"useJwt": false
+			"useJwt": true,
+			"customerKey": "ad1524c8-668d-471d-85e7-b57799f27237"
 			
 		},
 		"validate": {
 			"url": "https://testingjourneybuilderapp.herokuapp.com/validate",
 			"verb": "POST",
 			"body": "",
-			"useJwt": false
+			"useJwt": true,
+			"customerKey": "ad1524c8-668d-471d-85e7-b57799f27237"
 			
 		}
 	},
