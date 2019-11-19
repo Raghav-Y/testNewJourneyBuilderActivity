@@ -15,21 +15,21 @@
 	"configurationArguments": {
 		"applicationExtensionKey": "8e9c745d-adb7-4793-bd0d-6222ad44fbe0",
 		"save": {
-			"url": "https://https://testingjourneybuilderapp.herokuapp.com/activity/save",
+			"url": "https://testingjourneybuilderapp.herokuapp.com/activity/save",
 			"verb": "POST",
 			"body": "",
 			"useJwt": false
 			
 		},
 		"publish": {
-			"url": "https://https://testingjourneybuilderapp.herokuapp.com/activity/publish",
+			"url": "https://testingjourneybuilderapp.herokuapp.com/activity/publish",
 			"verb": "POST",
 			"body": "",
 			"useJwt": false
 			
 		},
 		"validate": {
-			"url": "https://https://testingjourneybuilderapp.herokuapp.com/activity/validate",
+			"url": "https://testingjourneybuilderapp.herokuapp.com/activity/validate",
 			"verb": "POST",
 			"body": "",
 			"useJwt": false
@@ -70,7 +70,7 @@
 		"execute": {
 			"inArguments": [],
 			"outArguments": [],
-			"url": "https://https://testingjourneybuilderapp.herokuapp.com/activity/execute",
+			"url": "https://testingjourneybuilderapp.herokuapp.com/activity/execute",
 			"verb": "POST",
 			"body": "",
 			"header": "",
@@ -80,7 +80,7 @@
 		}
 	},
 	"edit": {
-		"url": "https://https://testingjourneybuilderapp.herokuapp.com/index.html",
+		"url": "https://testingjourneybuilderapp.herokuapp.com/index.html",
 		"height": 200,
 		"width": 500
 	}
