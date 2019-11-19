@@ -1,5 +1,5 @@
 {
-	"key": "164c482e-c121-486f-a970-1f79cd9e12e8",
+	"key": "8e9c745d-adb7-4793-bd0d-6222ad44fbe0",
 	"metaData": {
 		"icon": "images/icon.png",
 		"iconSmall": "images/icon_small.png"
@@ -13,7 +13,7 @@
 	},
 	"workflowApiVersion": "1.1",
 	"configurationArguments": {
-		"applicationExtensionKey": "164c482e-c121-486f-a970-1f79cd9e12e8",
+		"applicationExtensionKey": "8e9c745d-adb7-4793-bd0d-6222ad44fbe0",
 		"save": {
 			"url": "https://https://testingjourneybuilderapp.herokuapp.com/activity/save",
 			"verb": "POST",
